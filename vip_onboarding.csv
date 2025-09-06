@@ -1,0 +1,14 @@
+﻿Input Field,value1,value2,value3,value4,value5,value6
+hostname,TEST_01,TEST_02,TEST_03,TEST_04,TEST_05,TEST_06
+vip_ip_port,10.20.30.40:80,10.20.30.41:443,10.20.30.42:443,10.20.30.44:443,10.20.30.45:443,10.20.30.42:443
+partition,Common,Common,Comm01,Common,Common,Comm01
+persistence_type,cookie,sourceaddr,cookie,sourceaddr,cookie,cookie
+timeout,300,350,400,300,350,400
+http_profile_name,http-x,http-HSTS,none,http-x,http-HSTS,none
+pool_members,"10.20.20.20,10.20.20.21","10.20.20.22,10.20.20.23","10.20.20.24,10.20.20.25","10.20.20.20,10.20.20.21","10.20.20.22,10.20.20.23","10.20.20.24,10.20.20.25"
+lbmethod,round-robin,round-robin,round-robin,round-robin,round-robin,round-robin
+snat,"10.10.10.11,10.10.10.12","10.10.10.13,10.10.10.14","10.10.10.15,10.10.10.16","10.10.10.11,10.10.10.12","10.10.10.13,10.10.10.14","10.10.10.15,10.10.10.16"
+ssl_config_type,fullbridge,offloading,passthrough,fullbridge,offloading,passthrough
+cert_name,test01.ctc.domain.com,test02.ctc.domain.com,,test04.ctc.domain.com,test05.ctc.domain.com,
+pfx_name,server1.pfx,server2.pfx,,server4.pfx,server5.pfx,
+pfx_password,123456,567890,,123456,567890,
